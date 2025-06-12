@@ -476,6 +476,14 @@ main {
   margin-bottom: 1rem;
   font-size: 0.9rem;
 }
+.rmb{
+  display: flex;
+  
+}
+
+.rmb p{
+  margin-left: 5px;
+}
 
 .auth-options a {
   color: #0066cc;
