@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- HEADER  -->
+    <header id="header">
+      <div class="container header-container">
+        <img
+          src="images/profile.png"
+          alt="Firaol Abera"
+          class="profile-photo"
+        />
+        <div class="intro">
+          <h1>Firaol Abera</h1>
+          <p class="tagline">Software Engineer</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- NAVIGATION BAR -->
+    <nav id="navbar">
+      <ul class="nav-list container">
+        <a href="#home"><li>Home</li></a>
+        <a href="#about"><li>About</li></a>
+        <a href="#skills"><li>Skills</li></a>
+        <a href="#projects"><li>Projects</li></a>
+        <a href="#certificates"><li>Certificates</li></a>
+        <a href="#contact"><li>Contact</li></a>
+      </ul>
+    </nav>
+
+    <!--  MAIN CONTENT & ARTICLE CONTAINER  -->
+    <div class="content-container">
+      <!--  MAIN CONTENT  -->
+      <main>
+        <!--  HOME SECTION  -->
+        <section id="home" class="section">
+          <div class="container home-container">
+            <h1 class="home-name">Firaol Abera</h1>
+            <p class="home-title">
+              Software Engineering Student & Aspiring Full-Stack Developer
+            </p>
+          </div>
+        </section>
+
+        <!--  ABOUT SECTION  -->
+        <section id="about" class="container section about-section">
+          <h2>About Me</h2>
+          <div class="about-flex">
+            <img
+              src="images/profile.png"
+              alt="profile photo"
+              class="about-photo"
+            />
+            <div class="about-text">
+              <p>
+                Hello! I’m a second-year Software engineering student at
+                Haramaya University.<br />
+                I enjoy building web applications, solving algorithmic
+                challenges, and learning about new techs.<br />
+                In my free time, I contribute to open-source and participate in
+                hackathons.
+              </p>
+              <p>
+                Currently, I'm seeking internship opportunities in full-stack
+                development for Summer 2025.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- SKILLS SECTION -->
+
+        <section id="skills" class="container section skills-section">
+          <h2>Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h3>Languages</h3>
+              <ul class="cards">
+                <li>
+                  <img src="./images/js.png" alt="JavaScript" />JavaScript
+                  (ES6+)
+                </li>
+                <li><img src="./images/python.png" alt="Python" />Python</li>
+                <li><img src="./images/java.png" alt="Java" />Java</li>
+                <li><img src="./images/c++.jpg" alt="C++" />C++</li>
+              </ul>
+            </div>
+            <div class="skill-category">
+              <h3>Frameworks & Libraries</h3>
+              <ul class="cards">
+                <li><img src="./images/react.png" alt="React" />React.js</li>
+                <li><img src="./images/node.png" alt="Node.js" />Node.js</li>
+                <li>
+                  <img src="./images/express.png" alt="Express.js" />Express.js
+                </li>
+                <li>
+                  <img src="./images/tailwind.png" alt="Tailwind CSS" />Tailwind
+                  CSS
+                </li>
+              </ul>
+            </div>
+            <div class="skill-category">
+              <h3>Tools & Other</h3>
+              <ul class="cards">
+                <li>
+                  <img
+                    src="./images/git and github.jpg"
+                    alt="Git & GitHub"
+                  />Git & GitHub
+                </li>
+                <li>
+                  <img src="./images/Ubuntu.png" alt="Linux (Ubuntu)" />Linux
+                  (Ubuntu)
+                </li>
+                <li><img src="./images/mysql.png" alt="MYSQL" />SQL</li>
+                <li><img src="./images/mongodb.jpg" alt="MongoDB" />MongoDB</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <!-- PROJECTS SECTION  -->
+        <section id="projects" class="container section projects-section">
+          <h2>Projects</h2>
+          <ul class="projects-card">
+            <li>
+              <div id="moviesApp" class="projects-photo"></div>
+              <div class="projects-description">
+                <h3>Movie App</h3>
+                <p>
+                  <b>Technologies:</b> React, AppWrite (Backend Framework),
+                  Tailwind CSS
+                </p>
+                <br />
+                <p>
+                  A movie search application that lets users find movies by
+                  title or year. The app fetches data from an API and displays
+                  results in a clean interface. Currently doesn't include video
+                </p>
+                <a href="https://movie-app-63xk.vercel.app/">
+                  <button id="see">See Project</button></a
+                >
+              </div>
+            </li>
+            <li>
+              <div id="toDoList" class="projects-photo"></div>
+              <div class="projects-description">
+                <h3>To-Do-List App</h3>
+                <p><b>Technologies:</b> React (JavaScript Library)</p>
+                <br />
+                <p>
+                  A responsive to-do list application that allows users to add
+                  and manage their tasks locally in the browser without any
+                  server-side storage.
+                </p>
+                <a href="https://hucisa-react-to-do-list-app-jk3y.vercel.app/">
+                  <button id="see">See Project</button></a
+                >
+              </div>
+            </li>
+            <li>
+              <div id="clock" class="projects-photo"></div>
+              <div class="projects-description">
+                <h3>Digital Clock</h3>
+                <p><b>Technologies:</b> HTML, CSS, JavaScript</p>
+                <br />
+                <p>
+                  A simple digital clock application that displays the current
+                  time
+                </p>
+                <a href="https://digital-clock-eight-ruby.vercel.app/">
+                  <button id="see">See Project</button></a
+                >
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!--  CERTIFICATES SECTION  -->
+        <section
+          id="certificates"
+          class="container section certificates-section"
+        >
+          <h2>Certificates</h2>
+          <ul class="certificates-cards">
+            <li>
+              <img
+                src="./images/FP.png"
+                alt="Fundamental of Programming certificate"
+              />Fundamental of Programming
+            </li>
+            <li>
+              <img
+                src="./images/Cloud.jpg"
+                alt="Cloud Computing certificate"
+              />Cloud Computing
+            </li>
+            <li>
+              <img src="./images/reactC.jpg" alt="React certificate" />React
+            </li>
+            <li><img src="./images/openSource.jpg" alt="" />Open-Source</li>
+            <li>
+              <img src="./images/pythonC.jpg" alt="Python certificate" />Python
+            </li>
+          </ul>
+        </section>
+
+        <!--CONTACT SECTION-->
+        <section id="contact" class="container section contact-section">
+          <h2>Contact Me</h2>
+          <p>
+            If you'd like to work together or have any questions, feel free to
+            contact me.
+          </p>
+
+          <div class="contact-info">
+            <br />
+            <pre>
+           Email: <a href="mailto:firaol991@gmail.com">firaol991@gmail.com</a>
+
+phone:  0912345678
+
+          </pre>
+          </div>
+
+          <!--CONTACT Form-->
+          <form method="POST" class="contact-form">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Your Name"
+            />
+
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="_replyto"
+              required
+              placeholder="you@example.com"
+            />
+
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              required
+              placeholder="Your message…"
+            ></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </section>
+      </main>
+
+      <!--  ARTICLE ASIDE -->
+      <aside class="article-sidebar">
+        <article class="developer-notes">
+          <h2>Developer Notes</h2>
+          <div class="note-card">
+            <h3>Current Focus</h3>
+            <p>
+              Mastering React hooks and Node.js performance optimization
+              techniques.
+            </p>
+          </div>
+          <div class="note-card">
+            <h3>Next Goals</h3>
+            <p>
+              Building a full-stack e-commerce app with microservices
+              architecture.
+            </p>
+          </div>
+          <div class="note-card">
+            <h3>Learning Resources</h3>
+            <p>
+              Currently exploring Full Stack Open course and Frontend Masters
+              workshops.
+            </p>
+          </div>
+        </article>
+      </aside>
+    </div>
+
+    <!-- FORMs -->
+    <div id="forms">
+      <section id="auth" class="container section">
+        <h2>Account</h2>
+        <div class="auth-container">
+          <!-- Sign Up Form -->
+          <div class="auth-form">
+            <h3>Sign Up</h3>
+            <form class="contact-form">
+              <label for="signup-name">Name</label>
+              <input
+                type="text"
+                id="signup-name"
+                name="name"
+                required
+                placeholder="Your Name"
+              />
+
+              <label for="signup-email">Email</label>
+              <input
+                type="email"
+                id="signup-email"
+                name="email"
+                required
+                placeholder="you@example.com"
+              />
+
+              <label for="signup-password">Password</label>
+              <input
+                type="password"
+                id="signup-password"
+                name="password"
+                required
+                placeholder="Create password"
+              />
+
+              <label for="signup-confirm">Confirm Password</label>
+              <input
+                type="password"
+                id="signup-confirm"
+                name="confirm-password"
+                required
+                placeholder="Confirm password"
+              />
+
+              <button type="submit">Create Account</button>
+            </form>
+          </div>
+
+          <!-- Login Form -->
+          <div class="auth-form">
+            <h3>Login</h3>
+            <form class="contact-form">
+              <label for="login-email">Email</label>
+              <input
+                type="email"
+                id="login-email"
+                name="email"
+                required
+                placeholder="you@example.com"
+              />
+
+              <label for="login-password">Password</label>
+              <input
+                type="password"
+                id="login-password"
+                name="password"
+                required
+                placeholder="Enter password"
+              />
+
+              <div class="auth-options">
+                <label>
+                  <input type="checkbox" name="remember" /> Remember me
+                </label>
+                <a href="#forgot-password">Forgot password?</a>
+              </div>
+
+              <button type="submit">Login</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- FOOTER -->
+    <footer>
+      <div class="container footer-container">
+        <ul class="socials">
+          <a href="https://web.facebook.com">
+            <li class="social-item">
+              <img src="./images/fb.svg" alt="facebook" />
+            </li>
+          </a>
+          <a href="www.instagram">
+            <li class="social-item">
+              <img src="./images/insta.svg" alt="instagram" />
+            </li>
+          </a>
+          <a href="www.twitter">
+            <li class="social-item">
+              <img src="./images/twitter.svg" alt="twitter" />
+            </li>
+          </a>
+          <a href="www.linkedin">
+            <li class="social-item">
+              <img src="./images/Linkedin.svg" alt="linkedin" />
+            </li>
+          </a>
+        </ul>
+        <p>&copy; 2025 Firaol Abera. All rights reserved.</p>
+        <p>Designed by Firaol Abera</p>
+      </div>
+    </footer>
+  </body>
+</html>
